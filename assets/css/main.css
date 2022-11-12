@@ -1,0 +1,52 @@
+*{
+
+}
+.position {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    }
+.container {
+    display: grid;
+    grid-template-columns: 200px 100px 100px;
+    grid-template-rows: 200px 100px 100px;
+    gap: 10px ;
+    /*justify-items: center;
+    align-items: center;*/
+    grid-template-areas: 
+    ´areaTitulo areaDashboard´
+    ´noticia1 noticia2 noticia3´
+    ¨;
+}
+.caja1 {
+    background-color: blueviolet;
+    grid-column: 1/3; 
+    grid-row: 1/3;   
+    grid-area: none;
+}
+.caja2 {
+    background-color: aquamarine;
+    grid-column: 2/3;
+    grid-row: 1;
+}
+.caja3 {
+    background-color: brown;
+}
+.caja4 {
+    background-color: antiquewhite;
+}
+.caja5 {
+    background-color: azure;
+}
+.caja5 {
+    background-color: bisque;
+}
+.caja6 {
+    background-color: brown;
+}
+.caja7 {
+ background-color: rgb(209, 196, 255);   
+}
+.caja8 {
+    background-color: rgb(196, 255, 214);
+}
