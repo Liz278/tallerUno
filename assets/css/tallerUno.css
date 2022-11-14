@@ -11,9 +11,6 @@
     display: flex;
     justify-content: space-evenly
 }
-.body{
-    gab
-}
 .img {
     width: 65px;
     height: 26px;
@@ -26,40 +23,98 @@
     cursor: pointer;
 }
 .cajaG {
-    
-    justify-content: center;
-    margin: 50px 150px 50px;
+    margin: 30px 150px 50px;
+    padding: 10px;
     gap: 10px;
+}
+.Uno{
+    width: 100%;
+    height:none;
 }
 .imagenes {
     display: grid;
-    align-content: center; 
-    grid-template-columns: 250px 10px 250px 70px 250px 70px;
-    grid-template-rows: 300px 300px 300px;
-    justify-content: center;
-    margin: 50px 150px 50px;
-    gap: 15px;
-    background-attachment: fixed;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 380px 380px 380px 380px 380px;
+    gap: 20px;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
 }
 .dos{
     grid-column: 1/2;
+    grid-row: 1/2;
+    cursor: pointer;
+}
+.dosdos{
+    width: 350px;
+    height: 200px;
 }
 .tres{
-    grid-column: 4/5;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    cursor: pointer;
+}
+.trestres{
+    width: 350px;
+    height: 200px;
 }
 .cuatro{
     grid-column: 1/2;
+    grid-row: 2/3;
+    cursor: pointer;
 }
+.cuatrocuatro{
+    width: 350px;
+    height: 200px;
+}
+.cinco{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    cursor: pointer;
+}
+.cincoccinco{
+    width: 350px;
+    height: 200px;
+}
+.seis{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    cursor: pointer;
+}
+.seisseis{
+    width: 350px;
+    height: 200px;
+}
+.siete{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.sietesi{
+    width: 350px;
+    height: 200px
+
+}
+
+.ocho{
+   
+    grid-column: 1/2;
+    grid-row: 4/5
+}
+.ochooxho{
+    width: 350px;
+    height: 200px;
+}
+
 .buttonClass{
     width: 100%;
     height: ;
 }
-.uno{
-   
+.pone{
+    grid-column: 1/4;
+    grid-row: 2/3;
 }
 .footer {
-    width: 100%;
-    height: 350px;
-    size-adjust: unset;
-    
+    width: 900px;
+    height: 300px;
+    display: flex; !important
 }
