@@ -38,21 +38,13 @@
 .Uno{
     width: 100%;
 }
-.noticias h6 {
-    width: 70%;
-    color: black;
-}
 
-.imgNoticias {
-    width: 20% !important;
-    border-radius: 0 !important;
-}
 .imagenes{
     display: grid;
     margin: 30px 150px;
     padding: 15px;
     grid-template-rows: repeat(5, 350px);
-    grid-template-columns: repeat(3, 450px);
+    grid-template-columns: repeat(3, 400px);
     gap: 15px;
     align-items: center;
 }
@@ -61,6 +53,8 @@
     grid-row: 1/2;
     border: 1px solid black;
     border-radius: 15px;
+    align-items: center;
+
 }
 
 .dos{
@@ -137,6 +131,15 @@
 .ochooxho{
     width: 350px;
     height: 200px;
+}
+.noticias h6 {
+    width: 70%;
+    color: rgb(5, 0, 0);
+}
+
+.imgNoticias {
+    width: 20% !important;
+    border-radius: 0 !important;
 }
 .buttonClass{
     width: 100%;
